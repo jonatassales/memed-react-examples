@@ -10,7 +10,7 @@ export default function PrescriptionButton() {
   React.useEffect(() => {
     function fetchDoctorToken() {
       setDoctorToken(
-        'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.WzMyMTE3LCIzZGFhMTI4M2E2ZjY2NGM1NzQ0YWI2ZWFjMjNjZmMxMiIsIjIwMjEtMDEtMzAiLCJzaW5hcHNlLnByZXNjcmljYW8iLCJwYXJ0bmVyLjMuMjc1MTkiXQ.7qgzFR4BDQqSEJT3UMSRcNLpSlqrFvbks15azXSosms'
+        'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.WzMxNjUxLCJlNWM1Zjc3OGNkOTFmZGJiYmUzODE1MjI1ZWMwODIzNSIsIjIwMjEtMDItMDkiLCJzaW5hcHNlLnByZXNjcmljYW8iLCJwYXJ0bmVyLjMuMjcwNTMiXQ.saHH12Knr04SwGHu5dIVwcaIew4bUJxj0hYLY0bVtoY'
       )
       setActionRef(buttonRef)
       setPatient({
